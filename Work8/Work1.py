@@ -25,9 +25,6 @@ user = [{1: {'surname':"Иванов", 'name':"Иван", 'phone':"78987", 'disc
 
 phonebook = {}
 phonebook_last_id = 0
-
-phonebook = {}
-phonebook_last_id = 0
  
  
 def create(db: dict, id: int, surname: str, name: str, phone: str, discription: str) -> tuple:           #data_base
